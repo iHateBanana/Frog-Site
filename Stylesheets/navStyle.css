@@ -1,0 +1,26 @@
+nav #logo img{
+	height: 150px;
+	position: absolute;
+	/*top: 5px;*/
+	left: 10px;
+	top: 15px;
+}
+
+nav ul {
+	border: red 10px solid;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+nav ul li {
+	list-style: none;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: white;
+	padding: 20px 10px;
+	display: block;
+	font-size: 16px;
+}
