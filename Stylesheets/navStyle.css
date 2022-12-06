@@ -1,26 +1,76 @@
 nav #logo img{
-	height: 150px;
+	height: 300px;
 	position: absolute;
-	/*top: 5px;*/
-	left: 10px;
-	top: 15px;
+	left: 270px;
+	top: 47px;
+	z-index: 7;
 }
 
 nav ul {
-	border: red 10px solid;
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
 	display: flex;
+	position: absolute;
+    left: 600px;
+    top: 0px;
+    z-index: 10;
 }
 
 nav ul li {
 	list-style: none;
+	z-index: 10;
 }
 
 nav ul li a {
 	text-decoration: none;
 	color: white;
-	padding: 20px 10px;
+	padding: 69px 30px;
 	display: block;
 	font-size: 16px;
+	z-index: 10;
+}
+
+#cartBox {
+	height: 10px;
+	width: 10px;
+	background-color: whitesmoke;
+	border: 1px whitesmoke solid;
+	z-index: 10;
+
+}
+
+#darkBox {
+	background-color: #295728;
+  	border: 1px solid #295728;
+  	padding: 100px; 
+  	width: 55%;
+  	height: 10px;
+  	position: absolute;
+    left: 0px;
+    top: 135px;
+    z-index: 2;
+}
+
+#mediumBox {
+	background-color: #6C8F20;
+  	border: 1px solid #6C8F20; 
+  	padding: 100px; 
+  	width: 55%;
+  	height: 55px;;
+  	position: absolute;
+    right: 0px;
+    top: 25px;
+
+}
+
+#lightBox {
+	background-color: #619B60;
+    border: 1px solid #6C8F20; 
+    padding: 100px; 
+  	width: 60%;
+  	height: 10px;;
+  	position: absolute;
+    left: 15%;
+    top: 45px;
+    z-index: 3;
 }
