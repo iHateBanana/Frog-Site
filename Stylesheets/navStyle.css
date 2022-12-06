@@ -4,6 +4,7 @@ nav #logo img{
 	left: 270px;
 	top: 47px;
 	z-index: 7;
+	border: red solid 2px;
 }
 
 nav ul {
