@@ -1,12 +1,10 @@
-
-
 nav #logo img{
 	height: 300px;
 	position: absolute;
-	left: 270px;
-	top: 47px;
-	z-index: 7;
-	border: red solid 2px;
+	top: 10px;
+	left: 177px;
+	margin: 0 0px;
+	z-index: 12;
 }
 
 nav ul {
@@ -49,6 +47,12 @@ nav ul li a {
 	width: 5px;
 }
 
+.cartLeftWheel
+
+.cartRightWheel
+
+.cartHandle
+
 .navBoxes {
 	margin: 150px;
 }
@@ -86,5 +90,42 @@ nav ul li a {
   	position: absolute;
     left: 15%;
     top: 45px;
+    z-index: 3;
+}
+
+
+#darkBox2 {
+	background-color: #295728;
+  	border: 1px solid #295728;
+  	padding: 100px; 
+  	width: 55%;
+  	height: 10px;
+  	position: absolute;
+    left: 0px;
+   	bottom: 135px;
+    z-index: 2;
+}
+
+#mediumBox2 {
+	background-color: #6C8F20;
+  	border: 1px solid #6C8F20; 
+  	padding: 100px; 
+  	width: 55%;
+  	height: 55px;;
+  	position: absolute;
+    right: 0px;
+    bottom: 25px;
+
+}
+
+#lightBox2 {
+	background-color: #619B60;
+    border: 1px solid #6C8F20; 
+    padding: 100px; 
+  	width: 60%;
+  	height: 10px;;
+  	position: absolute;
+    left: 15%;
+    bottom: 45px;
     z-index: 3;
 }
