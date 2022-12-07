@@ -93,16 +93,20 @@ nav ul li a {
     z-index: 3;
 }
 
+#navBoxes2 {
+	border: red 1px solid;
+	height: 70px;
+	}
 
 #darkBox2 {
 	background-color: #295728;
   	border: 1px solid #295728;
-  	padding: 100px; 
+  	padding: 100px;
   	width: 55%;
   	height: 10px;
-  	position: absolute;
+  	/*position: absolute;
     left: 0px;
-   	bottom: 135px;
+   	bottom: 135px;*/
     z-index: 2;
 }
 
@@ -111,21 +115,16 @@ nav ul li a {
   	border: 1px solid #6C8F20; 
   	padding: 100px; 
   	width: 55%;
-  	height: 55px;;
-  	position: absolute;
-    right: 0px;
-    bottom: 25px;
+  	height: 55px;
 
 }
 
 #lightBox2 {
 	background-color: #619B60;
     border: 1px solid #6C8F20; 
-    padding: 100px; 
+    padding: 100px;
   	width: 60%;
   	height: 10px;;
-  	position: absolute;
-    left: 15%;
-    bottom: 45px;
+  	position: center;
     z-index: 3;
 }
