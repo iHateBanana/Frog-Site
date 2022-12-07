@@ -1,11 +1,17 @@
 body {
-	height: 1500px;
-	background-color: #1E281E;
+	/*height: 1500px;
+*/	background-color: #1E281E;
 
 }
 
+button {
+	background-color: orangered;
+	color: whitesmoke;
+	margin-left: 200px;
+}
+
 .container {
-	margin-top: 90px;
+	margin-top: 400px;
 }
 
 .frogName {
@@ -21,6 +27,7 @@ body {
 .discription {
 	font-size: 20px;
 	color: white;
+	margin-right: 20%;
 }
 
 .card {

@@ -3,12 +3,13 @@ nav #logo img{
 	position: absolute;
 	top: 10px;
 	left: 177px;
-	margin: 0 0px;
 	z-index: 12;
 }
 
 nav ul {
-	margin: 0px 1200px;
+	position: absolute;
+	top: 70px;
+	right: 350px;
 	padding: 0;
 	display: flex;
     z-index: 10;
@@ -22,10 +23,10 @@ nav ul li {
 nav ul li a {
 	text-decoration: none;
 	color: white;
-	padding: 69px 30px;
 	display: block;
 	font-size: 16px;
 	z-index: 10;
+	width: 70px;
 }
 
 #cartBox {
@@ -78,7 +79,6 @@ nav ul li a {
   	position: absolute;
     right: 0px;
     top: 25px;
-
 }
 
 #lightBox {
@@ -93,20 +93,15 @@ nav ul li a {
     z-index: 3;
 }
 
-#navBoxes2 {
-	border: red 1px solid;
-	height: 70px;
-	}
-
 #darkBox2 {
 	background-color: #295728;
   	border: 1px solid #295728;
-  	padding: 100px;
+  	padding: 100px; 
   	width: 55%;
   	height: 10px;
-  	/*position: absolute;
+  	position: absolute;
     left: 0px;
-   	bottom: 135px;*/
+    top: 135px;
     z-index: 2;
 }
 
@@ -115,16 +110,39 @@ nav ul li a {
   	border: 1px solid #6C8F20; 
   	padding: 100px; 
   	width: 55%;
-  	height: 55px;
-
+  	height: 55px;;
+  	position: absolute;
+    right: 0px;
+    top: 25px;
 }
 
 #lightBox2 {
 	background-color: #619B60;
     border: 1px solid #6C8F20; 
-    padding: 100px;
+    padding: 100px; 
   	width: 60%;
   	height: 10px;;
-  	position: center;
+  	position: absolute;
+    left: 15%;
+    top: 45px;
     z-index: 3;
+}
+
+footer {
+	position: absolute;
+	top: 1500pxpx;
+	width: 100%;
+}
+
+@media (max-width:1054px ) {
+	nav ul {
+	position: absolute;
+	right: 100px;
+	}
+
+	nav #logo img{
+	height: 200px;
+	top: 100px;
+	left: 100px;
+	}
 }
