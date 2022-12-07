@@ -1,3 +1,15 @@
+nav h1 {
+	margin: 0 auto;
+	padding: 0;
+	color: white;
+	position: absolute;
+	top: 185px;
+	left: 850px;
+	z-index: 12;
+	font-size: 55px;
+}
+
+
 nav #logo img{
 	height: 300px;
 	position: absolute;
@@ -9,7 +21,7 @@ nav #logo img{
 nav ul {
 	position: absolute;
 	top: 70px;
-	right: 350px;
+	right: 400px;
 	padding: 0;
 	display: flex;
     z-index: 10;
@@ -24,9 +36,9 @@ nav ul li a {
 	text-decoration: none;
 	color: white;
 	display: block;
-	font-size: 16px;
+	font-size: 19px;
 	z-index: 10;
-	width: 70px;
+	width: 100px;
 }
 
 #cartBox {
@@ -37,22 +49,38 @@ nav ul li a {
 	border-bottom: 5px solid #619B60;
     border-Top: 5px solid #619B60;
     border-right: 30px solid whitesmoke;
+    position: relative;
+    right: 30px;
+
 }
 
 .cartCircle {
 	border-radius: 10px;
 	background-color: whitesmoke;
 	z-index: 10;
-	border: red solid 2px;
-	height: 5px;
-	width: 5px;
+	border: whitesmoke 1px solid;
+	height: 6px;
+	width: 6px;
 }
 
-.cartLeftWheel
+.leftWheel {
+	position: absolute;
+	top: 24px;
+	left: 25px;
 
-.cartRightWheel
+}
 
-.cartHandle
+.rightWheel {
+	position: absolute;
+	top: 20px;
+	left: 0px;
+}
+
+.circleHandle {
+	position: absolute;
+	top: -7px;
+	left: 35px;
+}
 
 .navBoxes {
 	margin: 150px;
@@ -134,15 +162,34 @@ footer {
 	width: 100%;
 }
 
+#socials {
+	position: absolute;
+	z-index: 14;
+	left: 800px;
+	top: 90px;
+}
+
 @media (max-width:1054px ) {
 	nav ul {
 	position: absolute;
 	right: 100px;
-	}
+}
 
 	nav #logo img{
 	height: 200px;
 	top: 100px;
 	left: 100px;
-	}
+}
+
+	nav h1 {
+	top: 185px;
+	left: 400px;
+	width: 400px;
+	font-size: 45px;
+}
+
+#socials {
+	left: 350px;
+	top: 90px;
+}
 }
