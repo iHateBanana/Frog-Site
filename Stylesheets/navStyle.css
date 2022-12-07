@@ -11,10 +11,10 @@ nav h1 {
 
 
 nav #logo img{
-	height: 300px;
+	height: 225px;;
 	position: absolute;
-	top: 10px;
-	left: 177px;
+	top: 90px;
+	left: 20px;
 	z-index: 12;
 }
 
@@ -165,7 +165,7 @@ footer {
 #socials {
 	position: absolute;
 	z-index: 14;
-	left: 800px;
+	left: 550px;
 	top: 90px;
 }
 
@@ -189,7 +189,19 @@ footer {
 }
 
 #socials {
-	left: 350px;
+	left: 250px;
 	top: 90px;
+}
+
+.navBoxes {
+	width: 1054px;
+}
+
+#navBoxes2 {
+	width: 1054px;
+}
+
+footer {
+	width: 1054px;
 }
 }
