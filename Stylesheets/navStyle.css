@@ -180,6 +180,10 @@ footer {
 	top: 90px;
 }
 
+#socials img {
+	width: 75px;
+}
+
 @media (max-width:1054px ) {
 nav ul {
 	position: absolute;
@@ -195,7 +199,7 @@ nav #logo img{
 nav h1 {
 	top: 185px;
 	left: 350px;
-	width: 200px;
+	width: 500px;
 	font-size: 45px;
 }
 
