@@ -130,6 +130,7 @@ section .container .CardContainer {
 #navBoxes2 {
 	margin: 150px;
 	height: 600px;
+	display: block;
 }
 
 #darkBox2 {
@@ -199,7 +200,7 @@ nav #logo img{
 nav h1 {
 	top: 185px;
 	left: 350px;
-	width: 500px;
+	width: 200px;
 	font-size: 45px;
 }
 
@@ -209,19 +210,10 @@ nav h1 {
     z-index: 3;
 }
 
-#darkBox2 {
-  	position: relative;
-    left: 0px;
-    bottom: 0px;
-}
-
-#mediumBox2 {
-    left: 127px;
-    bottom: 15px;
-}
-
 #lightBox2 {
-    top: 0;
+	left: 5%;
+    top: 45px;
+    z-index: 3;
 }
 
 #socials {
@@ -233,54 +225,129 @@ nav h1 {
 	width: 1000px;
 }
 
-footer {
-	width: 100%;
-	overflow: contain;
+#navBoxes2 {
+	width: 1000px;
 }
 }
 
 @media(max-width: 895px) {
-nav #logo img{
-	height: 120px;
-	left: 24px;
-	top: 150px;
+
+	nav #logo img{
+		height: 120px;
+		left: 24px;
+		top: 150px;
+	}
+	}
+
+@media (max-width:700px ) {
+
+	nav h1 {
+		width: 120px;
+		left: 300px;
+		font-size: 25px;
+	}
+	#lightBox {
+		width: 44%;
+	}
+
+	#lightBox2 {
+		width: 44%;
+	}
+	}
+
+@media (max-width:567px) {
+
+	nav ul {
+		font-size: 16px;
+		left: 75px;
+	}
+
+	nav h1 {
+		font-size: 20px;
+		left: 200px;
+	}
+
+	#navBoxes {
+		width: 400px;
+	}
+
+	#navBoxes2 {
+		width: 400px;
+	}
+
+
+	#lightBox {
+		width: 20%;
+	}
+
+	#mediumBox {
+		width: 15%;
+	}
+
+	#darkBox {
+		width: 15%;
+
+}
 }
 
-#lightBox2 {
-   	top: 55px;
-   	left: 40px;
+@media (max-width: 480px) {
+
+	nav ul {
+		font-size: 16px;
+		left: 60px;
+	}
+
+	nav h1 {
+		font-size: 20px;
+		left: 200px;
+	}
+
+	#navBoxes {
+		width: 400px;
+	}
+
+	#navBoxes2 {
+		width: 400px;
+	}
+
+
+	#lightBox {
+		width: 20%;
+	}
+
+	#mediumBox {
+		width: 15%;
+	}
+
+	#darkBox {
+		width: 15%;
+
+	}
+
+	#lightBox2 {
+		width: 20%;
+	}
+
+	#mediumBox2 {
+		width: 15%;
+	}
+
+	#darkBox2 {
+		width: 15%;
+
+}
 }
 
+@media (max-width: 360px) {
 
+	nav ul {
+		font-size: 16px;
+		left: 30px;
+	}
 
-
-}
-
-@media (max-width:650px ) {
-nav h1 {
-	width: 100px;
-	left: 300px;
-}
-
-#lightBox {
-	left: 5%;
-	top: 45px;
-}
-
-#darkBox2 {
-	position: relative;
-	left: 0px;
-	bottom: 0px;
-}
-
-#mediumBox2 {
-	left: 75px;
-	bottom: 15px;
-}
-
-#lightBox2 {
-   	top: 60px;
-   	left: 25px;
-}
+	nav h1 {
+		font-size: 20px;
+		left: 200px;
+	}
 
 }
