@@ -5,10 +5,20 @@ body {
 }
 
 button {
-	background-color: #BE4D4D;
+	background-color: #8D3926;
 	color: whitesmoke;
 	margin-left: 200px;
-	border: orangered 0.5px solid;
+	border: #8D3926 0.5px solid;
+	border-radius: 20px;
+	box-shadow: 2px 2px 5px #141614;
+}
+
+.headFont {
+	font-family: DM serif Display;
+}
+
+.bodyFont {
+	font-family:DM sans ;
 }
 
 .container {
@@ -37,6 +47,7 @@ button {
 	margin: 20px auto;
 	border-radius: 20px;
 	overflow: hidden;
+	box-shadow: 5px 5px 5px #141614;
 }
 
 .card .imageContainer {
@@ -62,7 +73,7 @@ button {
 	flex-wrap: wrap;
 	padding: 10px;
 	min-height: 80px;
-	background-color: #619B60 ;
+	background-color: #274626 ;
 }
 
 .textContain h2 {
