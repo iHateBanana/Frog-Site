@@ -237,6 +237,11 @@ nav h1 {
 		left: 24px;
 		top: 150px;
 	}
+/*
+#socials {
+	align-content: center;
+}*/
+
 	}
 
 @media (max-width:700px ) {
@@ -275,19 +280,14 @@ nav h1 {
 		width: 400px;
 	}
 
-
-	#lightBox {
-		width: 20%;
+	#socials {
+	left: 150px;
 	}
 
-	#mediumBox {
-		width: 15%;
+	#socials img {
+		width: 55px;
 	}
 
-	#darkBox {
-		width: 15%;
-
-}
 }
 
 @media (max-width: 480px) {
@@ -336,6 +336,15 @@ nav h1 {
 		width: 15%;
 
 }
+
+	#socials {
+		left: 50px;
+	
+}
+
+	#socials img {
+		width: 50px;
+}
 }
 
 @media (max-width: 360px) {
@@ -349,5 +358,10 @@ nav h1 {
 		font-size: 20px;
 		left: 200px;
 	}
+
+	#socials {
+	left: 20px;
+	top: 90px;
+}
 
 }

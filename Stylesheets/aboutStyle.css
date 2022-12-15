@@ -12,8 +12,28 @@ body {
 	margin: 45px;
 }
 
+.mainAbout {
+	color: white;
+
+}
+.mainAbout div {
+	margin: 100px;
+}
+.mainAbout h2 {
+	text-align: center;
+}
+
+.mainAbout div img {
+	width: 15%;
+	margin: 0 auto;
+}
+
 @media (max-width: 861px) {
 	.frogHead {
 		height: 300px;
 	}
+
+	.mainAbout div img {
+	width: 100%;
+}
 }
