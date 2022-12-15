@@ -237,6 +237,10 @@ nav h1 {
 		left: 24px;
 		top: 150px;
 	}
+
+	nav h1 {
+		font-size: 30px;
+	}
 /*
 #socials {
 	align-content: center;
