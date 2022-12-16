@@ -29,17 +29,20 @@ button {
 .frogName {
 	font-size: 25px;
 	color: white;
+	font-family:DM serif Display ;
 }
 
 .price {
 	font-size: 25px;
 	color: white;
+	font-family:DM sans ;
 }
 
 .discription {
 	font-size: 20px;
 	color: white;
 	margin-right: 20%;
+	font-family:DM sans ;
 }
 
 .card {
