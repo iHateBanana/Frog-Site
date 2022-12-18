@@ -13,6 +13,11 @@ button {
 	box-shadow: 2px 2px 5px #141614;
 }
 
+button a {
+	color: whitesmoke;
+	text-decoration: none;
+}
+
 .headFont {
 	font-family: DM serif Display;
 }
