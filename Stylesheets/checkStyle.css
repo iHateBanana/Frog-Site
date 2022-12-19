@@ -25,8 +25,6 @@ h3 {
 	left: 300px;
 }
 
-
-
 .formBox input {
 	position: relative;
 	top: 25px;
@@ -57,6 +55,12 @@ h3 {
 
 #cageContain input {
 	width: 20px;
+}
+
+button	{
+	position: relative;
+	right: 32px;
+	bottom: 18px;
 }
 
 @media (min-width:620px) {
