@@ -5,9 +5,14 @@ section img {
 	left: 40%;
 }
 
-div p {
+h2 {
 	color: white;
-	margin: 0 auto;
+	text-align: center;
+}
+
+h3 {
+	color: #1E281E;
+	text-align: center;
 }
 
 .formBox {
@@ -17,43 +22,63 @@ div p {
 	margin: 50px;
 	margin-right: 1000px;
 	position: relative;
-	right: 	30pxs;
+	left: 300px;
+}
+
+
+
+.formBox input {
+	position: relative;
+	top: 25px;
+	left: 8%;
+	margin: 12px;
+	padding: 5px;
+}
+
+.formBox input {
+	width:70% ;
+}
+
+.formBox label {
+	position: relative;
+	left: 25%;
+	top: 25px;
+}
+
+.formBox span {
+	position: relative;
+	left: 12%;
+	top: 25px;
+}
+
+#ageContain input	{
+	width: 20px;
+}
+
+#cageContain input {
+	width: 20px;
+}
+
+@media (min-width:620px) {
+	.formBox {
+		width: 400px;
+	}
 }
 
 @media (max-width:1500px) {
 	.formBox {
-		margin-right: 300px;
+		left: 100px;
 	}
 }
 
 @media (max-width:800px) {
-	section img {
-		left: 30%;
-	}
-
 	.formBox {
-		margin-right: 200px;
+		left: 50px;
 	}
 }
 
 @media (max-width:650px) {
-	section img {
-		left: 25%;
-	}
-
 	.formBox {
-		margin-right: 100px;
+		left: 0px;
 	}
-}
-
-@media (max-width:550px) {
-	section img {
-		left: 15%;
-	}
-
-	.formBox {
-		margin-right: 50px;
-	}
-
-
 }
