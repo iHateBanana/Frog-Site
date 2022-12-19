@@ -11,3 +11,5 @@ I started threeish days ago? Ive been working on the navigation bar mostly so ya
 
 
 <!--  I redesigned the "about us" page, and it looks so much better  -->
+
+<!-- started work on the checkout. the only other page that needs work in my opinion is the about us page. i finished the form for the most part, just need to add the frog cards on the right side which should take up a scary amount of time.  -->
