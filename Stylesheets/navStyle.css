@@ -353,16 +353,17 @@ nav h1 {
 }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 350px) {
 
 	nav ul {
-		font-size: 16px;
+		font-size: 12px;
 		left: 30px;
+		width: 70px;
 	}
 
 	nav h1 {
 		font-size: 20px;
-		left: 200px;
+		left: 125px;
 	}
 
 	#socials {
@@ -370,4 +371,7 @@ nav h1 {
 	top: 90px;
 }
 
+	nav #logo img{
+		height: 80px;
+	}
 }

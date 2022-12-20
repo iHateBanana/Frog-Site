@@ -1,10 +1,3 @@
-section img {
-	height: 150px;
-	margin: 0 auto;
-	position: relative;
-	left: 40%;
-}
-
 h2 {
 	color: white;
 	text-align: center;
@@ -57,22 +50,40 @@ h3 {
 	width: 20px;
 }
 
-button	{
+#fillOut button	{
 	position: relative;
 	right: 32px;
 	bottom: 18px;
 }
 
+.CardContainer {
+	grid-template-columns: repeat(1, 1fr);
+}
+
 @media (min-width:620px) {
 	.formBox {
 		width: 400px;
+		font-size: 12px;
 	}
 }
 
 @media (max-width:1500px) {
 	.formBox {
 		left: 100px;
+		margin-right: 150px;
 	}
+
+	.formBox span {
+		left: 5%;
+	}
+
+	#ageContain input	{
+		width: 10px;
+}
+
+	#cageContain input {
+		width: 10px;
+}
 }
 
 @media (max-width:800px) {
@@ -85,4 +96,26 @@ button	{
 	.formBox {
 		left: 0px;
 	}
+}
+
+@media(max-width:500px) {
+	.formBox {
+		width: 315px;
+		left: 0;
+		right: 0;
+		margin-left:15px;
+		margin-right: 15px;
+	}
+
+	h2 {
+		font-size: 15px;
+		margin-left: 25px;
+		margin-right: 10px;
+	}
+
+	#fillOut {
+		width: 315px;
+	}
+
+
 }
