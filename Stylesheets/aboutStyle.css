@@ -10,6 +10,12 @@ body {
 	margin: 100px;
 	margin-top:0px ;
 }
+
+.secondAbout div {
+	margin: 100px;
+	margin-top: 0;
+}
+
 .mainAbout h2 {
 	text-align: center;
 }
@@ -19,21 +25,45 @@ body {
 	color: #5B8251;
 	height: 250px;
 	width: 250px;
-	}
+	margin-left: 45px;
+	z-index: 12;
+	position: relative;
+}
 
 .lighter2 {
 	background-color: #CAE9CA;
 	color: #5B8251;
 	height: 270px;
 	width: 400px;
-	}
+	z-index: 2;
+	position: relative;
+	bottom: 250px;
+	left: 75px;
+}
+
+.lighter1 h2 {
+	font-size: 30px;
+	position: relative;
+	top: 170px;
+	left: 25px;
+}
+
+.light1 h2 {
+	font-size: 30px;
+	position: relative;
+	top: 170px;
+	left: 25px;
+}
 
 .light1 {
 	background-color: #C6EB77;
 	color: #5B8251 ;
 	height: 270px;
 	width: 400px;
-
+	position: relative;
+	left: 75px;
+	bottom: 250px;
+	z-index: 3;
 }
 
 .light2 {
@@ -41,6 +71,17 @@ body {
 	color:  #5B8251;
 	height: 250px;
 	width: 250px;
+	z-index: 13;
+	position: relative;
+	left: 275px;
+	border: red 5px solid;
+}
+
+.storyMain {
+	position: relative;
+	width:200px;
+	left: 195px;
+	top: 30px;
 }
 
 @media (max-width: 861px) {
