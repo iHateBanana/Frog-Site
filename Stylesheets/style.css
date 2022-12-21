@@ -11,6 +11,7 @@ button {
 	border: #8D3926 0.5px solid;
 	border-radius: 20px;
 	box-shadow: 2px 2px 5px #141614;
+	height: 35px;
 }
 
 button a {
@@ -103,7 +104,9 @@ button a {
 @media (max-width:1054px ) {
 .CardContainer {
 	grid-template-columns: repeat(2, 1fr);
+	margin: 0 auto;
 }
+	
 }
 
 @media (max-width:740px ) {

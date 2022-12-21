@@ -55,9 +55,96 @@ h3 {
 	right: 32px;
 	bottom: 18px;
 }
+.containerCheck {
+	margin-top: 400px;
+}
 
-.CardContainer {
+.frogNameCheck {
+	font-size: 25px;
+	color: white;
+	font-family:DM serif Display ;
+}
+
+.priceCheck {
+	font-size: 25px;
+	color: white;
+	font-family:DM sans ;
+}
+
+.discriptionCheck {
+	font-size: 20px;
+	color: white;
+	margin-right: 20%;
+	font-family:DM sans ;
+}
+
+.cardCheck {
+	max-width: 300px;
+	margin: 20px auto;
+	border-radius: 20px;
+	overflow: hidden;
+	box-shadow: 5px 5px 5px #141614;
+}
+
+.cardCheck .imageContainerCheck {
+	height: 120px;
+}
+
+.imageContainCheck img { 
+	width: 100%;
+	height: 100%;
+	display: block;
+	object-fit: cover;
+}
+
+.imageContainCheck {
+	height: 300px;
+}
+
+.textContainCheck {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	align-content: space-between;
+	flex-wrap: wrap;
+	padding: 10px;
+	min-height: 80px;
+	background-color: #274626 ;
+}
+
+.textContainCheck h2 {
+	margin: 0;
+	font-weight: normal;
+}
+
+.textContainCheck .priceCheck {
+	font-size: 24px;
+}
+
+.CardContainerCheck {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+@media (max-width:1054px ) {
+.CardContainerCheck {
+	grid-template-columns: repeat(2, 1fr);
+}
+}
+
+@media (max-width:740px ) {
+.CardContainerCheck {
 	grid-template-columns: repeat(1, 1fr);
+	margin: 0 auto;
+}
+}
+
+@media (max-width:370px) {
+.CardContainerCheck {
+	width: 315px;
+}
 }
 
 @media (min-width:620px) {
