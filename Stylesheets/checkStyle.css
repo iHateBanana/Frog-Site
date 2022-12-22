@@ -1,3 +1,24 @@
+body {
+	background-color: #1E281E;
+	margin: 0;
+
+}
+
+button {
+	background-color: #8D3926;
+	color: whitesmoke;
+	margin-left: 200px;
+	border: #8D3926 0.5px solid;
+	border-radius: 20px;
+	box-shadow: 2px 2px 5px #141614;
+	height: 35px;
+}
+
+button a {
+	color: whitesmoke;
+	text-decoration: none;
+}
+
 h2 {
 	color: white;
 	text-align: center;
@@ -61,6 +82,9 @@ h3 {
 	position: relative;
 	left: 200px;
 	bottom: 600px;
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	max-width: 230px;
 }
 
 .frogNameCheck {
