@@ -73,32 +73,43 @@ h3 {
 	font-size: 12px;
 	color: white;
 	font-family:DM sans ;
+	position: relative;
+	left: 50px;
+	bottom: 17px;
 }
 
 .discriptionCheck {
-	font-size: 12px;
+	font-size: 16px;
 	color: white;
 	margin-right: 20%;
 	font-family:DM sans ;
+	height: 100%;
+	position: relative;
+	left: 200px;
+	top: 15px;
 }
 
 .cardCheck {
-	max-width: 300px;
 	margin: 20px auto;
 	border-radius: 20px;
 	overflow: hidden;
 	box-shadow: 5px 5px 5px #141614;
+	width: 350px;
+	height: 130px;
 }
 
 .cardCheck .imageContainerCheck {
-	height: 60px;
+	height: 200px;
 }
 
 .imageContainCheck img { 
-	width: 100%;
-	height: 100%;
+	width: 220px;
+	height: 200px;
 	display: block;
+	position: relative;
 	object-fit: cover;
+	right: 60px;
+	z-index: 18;
 }
 
 .imageContainCheck {
@@ -109,33 +120,37 @@ h3 {
 	padding: 10px;
 	min-height: 20px;
 	background-color: #274626 ;
-	width: 100px;
-	height: 100px;
+	width: 400px;
+	height: 100%;
+	position: relative;
+	bottom: 60px;
 }
+
 
 .textContainCheck h2 {
 	margin: 0;
 	font-weight: normal;
 	font-size: 14px;
-	text-align: left;
+	text-align: center;
+	position: relative;
+	top: 3px;
+}
+
+.textContainCheck button {
+	position: relative;
+	left: 40px;
+	top: 50px;
 }
 
 .CardContainerCheck {
 	display: grid;
-	grid-template-columns: repeat(3, 1fr);
+	grid-auto-columns: 100px;	
 	max-width: 120px;
 	margin: 0 auto;
 }
 
-@media (max-width:1054px ) {
+/*@media (max-width:740px ) {
 .CardContainerCheck {
-	grid-template-columns: repeat(2, 1fr);
-}
-}
-
-@media (max-width:740px ) {
-.CardContainerCheck {
-	grid-template-columns: repeat(1, 1fr);
 	margin: 0 auto;
 }
 }
@@ -144,7 +159,7 @@ h3 {
 .CardContainerCheck {
 	width: 315px;
 }
-}
+}*/
 
 @media (min-width:620px) {
 	.formBox {
