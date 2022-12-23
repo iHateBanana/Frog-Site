@@ -104,7 +104,7 @@ h3 {
 	font-family:DM sans ;
 	position: relative;
 	left: 50px;
-	bottom: 17px;
+	bottom: 10px;
 }
 
 .discriptionCheck {
@@ -114,7 +114,7 @@ h3 {
 	font-family:DM sans ;
 	height: 100%;
 	position: relative;
-	left: 200px;
+	left: 160px;
 	top: 15px;
 }
 
@@ -277,6 +277,12 @@ h3 {
 	.frogImg img {
 		left: 20px;
 	}
+	}
 
-
+@media (max-width:480px) {
+	.containerCheck {
+		left: 20px;
+	}
 }
+
+

@@ -304,21 +304,16 @@ nav h1 {
 	}
 
 	#navBoxes {
-		width: 480px;
+		width: 330px;
 	}
 
 	#navBoxes2 {
-		width: 480px;
+		width: 330px;
 	}
-
-	#darkBox {
-		width: 70%;
-	}
-
+	
 	#socials {
 		left: 50px;
-	
-}
+	}
 
 	#socials img {
 		width: 50px;
