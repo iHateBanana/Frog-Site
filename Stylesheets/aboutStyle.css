@@ -2,23 +2,23 @@ body {
 	margin: 0;
 }
 
+.mainAbout div {
+	margin: 10px;
+	margin-top:0px ;
+}
+
 .secondAbout {
 	position: relative;
 	bottom: 10px;
 }
 
-.mainAbout div {
-	margin: 100px;
-	margin-top:0px ;
-}
-
 .secondAbout div {
-	margin: 100px;
+	margin: 10px;
 	margin-top: 0;
 }
 
 .thirdAbout div {
-	margin: 100px;
+	margin: 10px;
 	margin-top: 0;
 }
 
@@ -97,12 +97,11 @@ body {
 }
 
 @media (max-width:820px) {
-	
 	.lighter1 {
 	margin-left: 45px;
 }
 
-.lighter2 {
+	.lighter2 {
 	bottom: 250px;
 	left: 75px;
 }
@@ -112,13 +111,37 @@ body {
 	bottom: 250px;
 }
 
-.light2 {
+	.light2 {
 	left: 275px;
 }
 }
 
-@media (max-width: 861px) {
-	.mainAbout div img {
-	width: 100%;
+@media (min-width:820px) {
+	.mainAbout {
+		margin-left: 200px;
+	}
+
+	.secondAbout {
+		margin-left: 200px;
+	}
+
+	.thirdAbout {
+		margin-left: 200px;
+	}
 }
+
+@media (min-width:1200px) { 
+	.mainAbout {
+		margin-left: 400px;
+	}
+
+	.secondAbout {
+		margin-left: 400px;
+	}
+
+	.thirdAbout {
+		margin-left: 400px;
+	}
 }
+
+
