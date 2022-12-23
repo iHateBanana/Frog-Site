@@ -29,6 +29,11 @@ h3 {
 	text-align: center;
 }
 
+#fillOut {
+	position: relative;
+	top: 400px;
+}
+
 .formBox {
 	background-color: #C6EB77;
 	height: 500px;
@@ -73,15 +78,15 @@ h3 {
 
 #fillOut button	{
 	position: relative;
-	right: 32px;
-	bottom: 18px;
+	right: 80px;
+	top: 100px;
 }
 
 .containerCheck {
 	margin-top: 400px;
 	position: relative;
-	left: 200px;
-	bottom: 600px;
+	left: 900px;
+	bottom: 500px;
 	display: grid;
 	grid-template-columns: repeat(1, 1fr);
 	max-width: 230px;
@@ -173,17 +178,23 @@ h3 {
 	margin: 0 auto;
 }
 
-/*@media (max-width:740px ) {
-.CardContainerCheck {
-	margin: 0 auto;
-}
+.frogImg img {
+	max-width:350px;
+	position: relative;
+	left: 600px;
 }
 
-@media (max-width:370px) {
-.CardContainerCheck {
-	width: 315px;
+@media (max-width:1160px) {
+	.containerCheck {
+		left: 650px;
+	}
+
+	.frogImg img {
+	max-width:350px;
+	position: relative;
+	left: 400px;
 }
-}*/
+}
 
 @media (min-width:620px) {
 	.formBox {
@@ -211,8 +222,25 @@ h3 {
 }
 }
 
+@media (max-width:1000px) {
+	.containerCheck {
+		left: 180px;
+		bottom: -10px;
+	}
+
+}
+
 @media (max-width:800px) {
 	.formBox {
+		left: 50px;
+	}
+
+	.containerCheck {
+		left: 80px;
+		bottom: -10px;
+	}
+
+	.frogImg img {
 		left: 50px;
 	}
 }
@@ -240,6 +268,14 @@ h3 {
 
 	#fillOut {
 		width: 315px;
+	}
+
+	.containerCheck {
+		left: 40px;
+	}
+
+	.frogImg img {
+		left: 20px;
 	}
 
 
